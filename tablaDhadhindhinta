@@ -1,0 +1,21 @@
+
+loop do
+  with_fx :reverb, room: 0.5 do
+    sample :tabla_na
+    sample :tabla_ghe2
+    sleep 0.2
+    sample :tabla_tun3
+    sample :tabla_ghe1
+    
+    sleep 0.2
+    sample :tabla_tun3
+    sample :tabla_ghe1
+    
+    sleep 0.2
+    sample :tabla_na
+    sample :tabla_ghe2
+    sleep 0.2
+    
+  end
+  
+end
